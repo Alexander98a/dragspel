@@ -1,0 +1,75 @@
+body {
+    display: grid;
+    background-color: aqua;
+    padding: 20px;
+    gap: 1px;
+}
+
+.box {
+    height: 70px;
+    width: 100px;
+    background-color: brown;
+}
+
+.one {background-color: rgb(230, 23, 23);}
+.two {background-color: rgb(42, 42, 153)}
+.three {background-color: rgb(34, 212, 34);}
+.four {background-color: rgb(102, 98, 98);}
+.five {background-color: rgb(147, 48, 240);}
+.six {background-color: rgb(4, 9, 10);}
+.seven {background-color: rgb(255, 0, 212);}
+.eight {background-color: rgb(231, 228, 38);}
+.nine {background-color: rgb(235, 230, 224);}
+.ten {background-color: rgb(52, 15, 155);}
+
+@media screen and (max-width: 1200px) {
+    .one {background-color: rgb(146, 59, 226);}
+    .two {background-color: brown;}
+    .three {background-color: black;}
+    .four {background-color: aquamarine;}
+    .five {background-color: rgb(36, 139, 62);}
+    .six {background-color: rgb(221, 37, 37);}
+    .seven {background-color: rgb(162, 179, 11);}
+    .eight {background-color: rgb(47, 10, 209);}
+    .nine {background-color: blue;}
+    .ten {background-color: rgb(218, 13, 116);}
+}
+
+@media screen and (max-width: 1024px) {
+    .one {background-color: black;}
+    .two {background-color: rgb(223, 4, 4);}
+    .three {background-color: antiquewhite;}
+    .four {background-color: blue;}
+    .five {background-color: blueviolet;}
+    .six {background-color: brown;}
+    .seven {background-color: rgb(167, 164, 12);}
+    .eight {background-color: rgb(41, 22, 59);}
+    .nine {background-color: rgb(124, 124, 81);}
+    .ten {background-color: rgb(53, 44, 44);}
+}
+
+@media screen and (max-width: 768px) {
+    .one {background-color: blue;}
+    .two {background-color: beige;}
+    .three {background-color: rgb(173, 98, 243);}
+    .four {background-color: rgb(99, 39, 39);}
+    .five {background-color: aquamarine;}
+    .six {background-color: rgb(120, 120, 189);}
+    .seven {background-color: rgb(219, 219, 219);}
+    .eight {background-color: black;}
+    .nine {background-color: rgb(160, 0, 0);}
+    .ten {background-color: green;}
+}
+
+@media screen and (max-width: 480px) {
+    .one {background-color: black;}
+    .two {background-color: blue;}
+    .three {background-color: red;}
+    .four {background-color: aquamarine;}
+    .five {background-color: rgb(27, 27, 41);}
+    .six {background-color: bisque;}
+    .seven {background-color: rgb(82, 42, 42);}
+    .eight {background-color: greenyellow;}
+    .nine {background-color: forestgreen;}
+    .ten {background-color: blueviolet;}
+}
